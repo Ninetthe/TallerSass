@@ -9,15 +9,25 @@ main #section-two {
 }
 
 body {
-  background-color: burlywood;
+  background-color: rgb(216, 183, 193);
 }
 body header {
-  color: crimson;
+  color: rgb(214, 219, 66);
   width: 100%;
 }
 body header h1 {
   font-style: italic;
   text-align: center;
+}
+body .class_motivation p {
+  color: blue;
+  font-size: italic;
+  font-size: 3em;
+}
+body .class_motivation #motivation {
+  color: red;
+  font-size: italic;
+  font-size: 3em;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,10 @@
-$backgroundColor: burlywood;
-$titleColor: crimson;
+$backgroundColor: rgb(216, 183, 193);
+$titleColor: rgb(214, 219, 66);
 $TextColorOne: darkorchid;
 $TextColortwo: green;
 
+@mixin cambio($cambio: pink) {
+    color: $cambio;
+    font-size: italic;
+    font-size: 3em;
+}
